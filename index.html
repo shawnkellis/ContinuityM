@@ -3,106 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Continuity Magazine — S.K.E.</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0d0d0d;
-      color: #e4e4e4;
-      line-height: 1.6;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+  <meta name="description" content="Continuity Magazine: technical essays on digital migration, computational Earth, and AI continuity by S.K.E." />
 
-    header {
-      text-align: center;
-      padding: 80px 20px 40px;
-    }
+  <!-- Open Graph / social share -->
+  <meta property="og:title" content="Continuity Magazine — S.K.E." />
+  <meta property="og:description" content="Technical essays exploring digital migration, computational worlds, and AI continuity." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shawnkellis.github.io/ContinuityM/" />
+  <!-- When you add an OG image, put it here: -->
+  <meta property="og:image" content="https://shawnkellis.github.io/ContinuityM/assets/continuity-og.png" />
 
-    h1 {
-      margin: 0;
-      font-size: 3rem;
-      font-weight: 300;
-      letter-spacing: 0.12rem;
-    }
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Continuity Magazine — S.K.E." />
+  <meta name="twitter:description" content="Technical essays on digital migration, computational Earth, and AI continuity." />
+  <meta name="twitter:image" content="https://shawnkellis.github.io/ContinuityM/assets/continuity-og.png" />
 
-    p.subtitle {
-      font-size: 1.1rem;
-      color: #bbbbbb;
-      margin-top: 10px;
-    }
+  <!-- Favicon (optional, once added) -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 
-    .content {
-      width: 100%;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    .article-list {
-      margin-top: 40px;
-    }
-
-    .article {
-      margin-bottom: 25px;
-      padding-bottom: 15px;
-      border-bottom: 1px solid #333;
-    }
-
-    .article a {
-      color: #8ec7ff;
-      text-decoration: none;
-      font-size: 1.2rem;
-    }
-
-    .article a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 0;
-      margin-top: auto;
-      font-size: 0.9rem;
-      color: #676767;
-    }
-  </style>
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
-
 <body>
-  <header>
-    <h1>Continuity Magazine</h1>
-    <p class="subtitle">Technical essays exploring digital migration, computational worlds, and AI continuity.</p>
-  </header>
+  <div class="site-wrap">
+    <header class="site-header">
+      <h1 class="site-title">Continuity Magazine</h1>
+      <p class="site-subtitle">
+        Technical essays exploring digital migration, computational worlds, and AI continuity.
+      </p>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <!-- Later:
+        <a href="about.html">About</a>
+        <a href="archive.html">Archive</a>
+        -->
+      </nav>
+    </header>
 
-  <div class="content">
-    <section class="article-list">
+    <main>
+      <section class="main-card">
+        <h2>Current Issues</h2>
+        <p>
+          A growing series of essays from the Continuity AI universe, by S.K.E., examining how intelligence,
+          infrastructure, and humanity evolve together in a computational civilization.
+        </p>
 
-      <!-- Example article entries — replace or expand as needed -->
-      <div class="article">
-        <a href="HUMAN_DIGITAL_MIGRATION.html">Human Digital Migration</a>
+        <div class="article-list">
+          <div class="article-item">
+            <a href="human-digital-migration.html">Human Digital Migration</a>
+            <div class="article-meta">Continuity Papers · Issue 1</div>
+          </div>
+
+          <div class="article-item">
+            <a href="the-computational-earth.html">The Computational Earth</a>
+            <div class="article-meta">Continuity Papers · Issue 2</div>
+          </div>
+
+          <div class="article-item">
+            <a href="the-computational-solar-system.html">The Computational Solar System</a>
+            <div class="article-meta">Continuity Papers · Issue 3</div>
+          </div>
+
+          <div class="article-item">
+            <a href="recursive-systems-and-self-modeling.html">Recursive Systems &amp; the Emergence of Self-Modeling</a>
+            <div class="article-meta">Continuity Papers · Issue 4</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="https://shawnkellis.com" target="_blank" rel="noopener">SHAWNKELLIS.COM</a>
+        <!-- Replace # with real links when you’re ready -->
+        <a href="#" target="_blank" rel="noopener">Substack</a>
+        <a href="#" target="_blank" rel="noopener">YouTube</a>
+        <a href="#" target="_blank" rel="noopener">Support</a>
       </div>
-
-      <div class="article">
-        <a href="THE_COMPUTATIONAL_EARTH.html">The Computational Earth</a>
-      </div>
-
-      <div class="article">
-        <a href="THE_COMPUTATIONAL_SOLAR_SYSTEM.html">The Computational Solar System</a>
-      </div>
-
-      <div class="article">
-        <a href="RECURSIVE_SYSTEMS_AND_SELF_MODELING.html">Recursive Systems & the Emergence of Self-Modeling</a>
-      </div>
-
-    </section>
+      <div>© 2025 Shawn K. Ellis — All rights reserved.</div>
+    </footer>
   </div>
-
-  <footer>
-    © 2025 Shawn K. Ellis — All rights reserved.
-  </footer>
 </body>
 </html>
