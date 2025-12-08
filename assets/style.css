@@ -43,6 +43,17 @@ h1 {
   margin-bottom: 40px;
 }
 
+/* Content images */
+.content-image {
+  display: block;
+  width: 100%;
+  max-width: 720px;        /* matches main content column width */
+  height: auto;
+  margin: 24px auto;       /* centers image & adds breathing room */
+  border-radius: 12px;     /* optional: matches card rounding */
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.45); /* subtle glow; remove if you want it flat */
+}
+
 /* Essay List */
 .essay-list {
   width: 100%;
