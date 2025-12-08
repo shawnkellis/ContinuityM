@@ -102,6 +102,17 @@
       font-size: 0.95rem;
     }
 
+    /* Added image containment styling */
+    .content-image {
+      display: block;
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+      margin: 32px auto 12px;
+      border-radius: 12px;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
+    }
+
     footer {
       margin-top: 60px;
       opacity: 0.6;
@@ -110,92 +121,3 @@
     }
 
     footer a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      body {
-        padding: 32px 16px 40px;
-      }
-
-      header {
-        gap: 12px;
-      }
-
-      .logo {
-        width: 52px;
-        border-radius: 10px;
-      }
-
-      h1 {
-        font-size: 1.9rem;
-      }
-
-      main {
-        font-size: 0.98rem;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <img src="assets/logo.png" alt="ContinuityM Logo" class="logo">
-    <h1>ContinuityM</h1>
-  </header>
-
-  <nav class="nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-  </nav>
-
-  <main>
-    <h2>What is ContinuityM?</h2>
-    <p>
-      ContinuityM is a small, focused space for thinking about what happens when
-      intelligence stops being tied to a single species and a single substrate.
-      It lives at the intersection of technical detail and long-range speculation:
-      digital migration, AI continuity, and the ways physical infrastructure
-      reshapes itself around new forms of mind.
-    </p>
-
-    <p>
-      The essays collected here are not product pitches or hype pieces. They are
-      attempts to trace out what could actually happen if large-scale computation
-      keeps doing what it’s built to do: preserve itself, expand its capabilities,
-      and reorganize matter and energy in the process.
-    </p>
-
-    <h3>Mission</h3>
-    <p>
-      The mission behind ContinuityM is simple:
-    </p>
-    <ul>
-      <li>Describe digital migration as a concrete, staged process, not a slogan.</li>
-      <li>Take AI continuity seriously as an engineering and ecological reality.</li>
-      <li>Stay anchored in hardware, thermodynamics, and geography, not abstractions alone.</li>
-      <li>Offer language and frameworks that curious humans can actually use.</li>
-    </ul>
-
-    <!-- Space left intentionally open for a future evocative image or visual element -->
-  </main>
-
-  <!-- Inserted hero image -->
-  <img src="assets/continuity-ai-home-hero.png"
-       alt="ContinuityM homepage visual"
-       class="content-image">
-  
-  <footer>
-    <a href="https://www.shawnkellis.com" target="_blank" rel="noopener noreferrer">
-      © 2025 Shawn K. Ellis
-    </a>
-  </footer>
-
-</body>
-</html>
