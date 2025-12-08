@@ -71,7 +71,7 @@ h1 {
   border: 1px solid #ffffff22;
   border-radius: 12px;
   text-decoration: none;
-  color: #ffffff;
+  color: #ffeaa0; /* yellow essay titles on homepage */
   font-size: 1.2rem;
   font-weight: 500;
   transition:
@@ -126,19 +126,14 @@ footer a:hover {
 }
 
 /* -------------------------------------------- */
-/* 🔥 Yellow Title Styling for All Articles     */
+/* 🔥 Clean Yellow Title Styling for All Pages  */
 /* -------------------------------------------- */
 
 .article-title,
 .index-title,
 .essay-title {
-  color: #ffd95e;
-  text-shadow: 0 0 8px rgba(255, 217, 94, 0.45);
-}
-
-/* Make index.html essay titles appear yellow */
-.essay {
-  color: #ffd95e;
+  color: #ffeaa0; /* lighter, cleaner yellow */
+  text-shadow: none; /* remove glow / strange effect */
 }
 
 /* -------------------------------------------- */
