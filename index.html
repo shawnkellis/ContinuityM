@@ -8,15 +8,22 @@
 
   <meta name="description" content="Technical essays by Shawn K. Ellis exploring digital migration, AI continuity, and the long-term evolution of intelligence and infrastructure." />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="ContinuityM" />
-  <meta property="og:description" content="Technical essays by Shawn K. Ellis exploring digital migration, AI continuity, and the long-term evolution of intelligence and infrastructure." />
-  <meta property="og:image" content="assets/og-image.png" />
-  <meta property="og:type" content="website" />
+  <!-- Standard Favicons (we'll finish these later) -->
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
-  <!-- Favicon -->
-  <link rel="icon" href="assets/favicon-32.png" type="image/png">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:title" content="ContinuityM">
+  <meta property="og:description" content="Technical essays by Shawn K. Ellis exploring digital migration, AI continuity, and the long-term evolution of intelligence and infrastructure.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ContinuityM">
+  <meta name="twitter:description" content="Technical essays by Shawn K. Ellis exploring digital migration, AI continuity, and the long-term evolution of intelligence and infrastructure.">
+  <meta name="twitter:image" content="assets/og-image.png">
 
   <!-- Inline CSS -->
   <style>
@@ -39,7 +46,7 @@
       flex-direction: row;
       align-items: center;
       gap: 16px;
-      margin-bottom: 32px;
+      margin-bottom: 12px;
     }
 
     .logo {
@@ -53,6 +60,27 @@
       font-size: 2.4rem;
       font-weight: 600;
       margin: 0;
+    }
+
+    /* Nav */
+    .nav {
+      margin-bottom: 28px;
+      display: flex;
+      gap: 18px;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    .nav a {
+      color: #c9d4ff;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
     }
 
     /* Description */
@@ -155,6 +183,10 @@
         font-size: 1.9rem;
       }
 
+      .nav {
+        gap: 14px;
+      }
+
       .description {
         font-size: 1rem;
         margin-bottom: 32px;
@@ -184,23 +216,34 @@
     <h1>ContinuityM</h1>
   </header>
 
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+
   <p class="description">
     Technical essays by <strong>Shawn K. Ellis</strong> exploring digital migration, AI continuity,
     and the long-term evolution of intelligence and infrastructure.
   </p>
 
   <div class="essay-list">
-    <a class="essay" href="human-digital-migration.pdf">
+
+    <a class="essay" href="articles/human-digital-migration.html">
       Human Digital Migration
     </a>
 
-    <a class="essay" href="computational-earth.pdf">
+    <a class="essay" href="articles/computational-earth.html">
       The Computational Earth
     </a>
 
-    <a class="essay" href="recursive-systems.pdf">
+    <a class="essay" href="articles/recursive-systems.html">
       Recursive Systems &amp; The Emergence of Self-Modeling
     </a>
+
+    <a class="essay" href="articles/computational-solar-system.html">
+      The Computational Solar System
+    </a>
+
   </div>
 
   <footer>
