@@ -51,7 +51,7 @@ h1 {
   height: auto;
   margin: 24px auto;       /* centers image & adds breathing room */
   border-radius: 12px;     /* optional: matches card rounding */
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.45); /* subtle glow; remove if you want it flat */
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.45); /* subtle glow */
 }
 
 /* Essay List */
@@ -124,6 +124,24 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* -------------------------------------------- */
+/* 🔥 Yellow Title Styling for All Articles     */
+/* -------------------------------------------- */
+
+.article-title,
+.index-title,
+.essay-title {
+  color: #ffd95e;
+  text-shadow: 0 0 8px rgba(255, 217, 94, 0.45);
+}
+
+/* Make index.html essay titles appear yellow */
+.essay {
+  color: #ffd95e;
+}
+
+/* -------------------------------------------- */
 
 /* Responsive tweaks */
 @media (max-width: 600px) {
