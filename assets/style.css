@@ -33,7 +33,7 @@ h1 {
   margin: 0;
 }
 
-/* Description */
+/* Description (index page subtitle) */
 .description {
   max-width: 650px;
   text-align: center;
@@ -43,18 +43,39 @@ h1 {
   margin-bottom: 40px;
 }
 
+/* Navigation */
+.nav {
+  margin-bottom: 12px; /* reduced so About page spacing looks correct */
+  display: flex;
+  gap: 18px;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.nav a {
+  color: #c9d4ff;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
 /* Content images */
 .content-image {
   display: block;
   width: 100%;
-  max-width: 720px;
+  max-width: 720px;     /* matches main content column width */
   height: auto;
-  margin: 24px auto;
+  margin: 24px auto;    /* centers image & gives breathing room */
   border-radius: 12px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
 }
 
-/* Essay List */
+/* Essay List (index) */
 .essay-list {
   width: 100%;
   max-width: 720px;
@@ -82,6 +103,7 @@ h1 {
   overflow: hidden;
 }
 
+/* Animated underline + glow on hover */
 .essay::after {
   content: "";
   position: absolute;
@@ -110,8 +132,17 @@ h1 {
 /* Article titles on inner pages */
 .article-title {
   font-size: 1.7rem;
+  margin: 22px 0 0.4rem; /* extra breathing room above all article titles */
   color: #c7ddff;
-  margin: 28px 0 0.6rem;   /* ⭐ Added top margin for breathing room */
+}
+
+/* About page section titles */
+.page-section-title {
+  color: #c9d4ff; /* same icy blue as index titles */
+  text-shadow: 0 0 8px rgba(201, 212, 255, 0.25);
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
 }
 
 /* Footer */
