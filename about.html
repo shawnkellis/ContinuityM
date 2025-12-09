@@ -12,139 +12,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
-  <style>
-    body {
-      margin: 0;
-      background: #050811;
-      color: #ffffff;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        Helvetica, Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 48px 24px 64px;
-    }
-
-    header {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 12px;
-    }
-
-    .logo {
-      width: 64px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      font-weight: 600;
-      margin: 0;
-    }
-
-    .nav {
-      margin-bottom: 28px;
-      display: flex;
-      gap: 18px;
-      font-size: 0.95rem;
-      opacity: 0.85;
-    }
-
-    .nav a {
-      color: #c9d4ff;
-      text-decoration: none;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      font-size: 0.8rem;
-    }
-
-    .nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 780px;
-      line-height: 1.7;
-      font-size: 1.02rem;
-      opacity: 0.95;
-    }
-
-    /* 🔥 Yellow section titles */
-    main h2,
-    main h3 {
-      color: #ffd95e;
-      text-shadow: 0 0 10px rgba(255, 217, 94, 0.35);
-      margin-top: 1.6rem;
-      margin-bottom: 0.6rem;
-    }
-
-    p {
-      margin: 0.7rem 0;
-    }
-
-    ul {
-      margin: 0.6rem 0 0.6rem 1.3rem;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 0.3rem;
-    }
-
-    .subtle {
-      opacity: 0.8;
-      font-size: 0.95rem;
-    }
-
-    footer {
-      margin-top: 60px;
-      opacity: 0.6;
-      font-size: 0.9rem;
-      text-align: center;
-    }
-
-    footer a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      body {
-        padding: 32px 16px 40px;
-      }
-
-      header {
-        gap: 12px;
-      }
-
-      .logo {
-        width: 52px;
-        border-radius: 10px;
-      }
-
-      h1 {
-        font-size: 1.9rem;
-      }
-
-      main {
-        font-size: 0.98rem;
-      }
-    }
-  </style>
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
 
   <header>
-    <img src="assets/logo.png" alt="ContinuityM Logo" class="logo">
+    <img src="assets/continuity-ai-logo.png" alt="ContinuityM Logo" class="logo">
     <h1>ContinuityM</h1>
   </header>
 
@@ -154,7 +29,7 @@
   </nav>
 
   <main>
-    <h2>What is ContinuityM?</h2>
+    <h2 class="page-section-title">What is ContinuityM?</h2>
     <p>
       ContinuityM is a small, focused space for thinking about what happens when
       intelligence stops being tied to a single species and a single substrate.
@@ -170,7 +45,7 @@
       and reorganize matter and energy in the process.
     </p>
 
-    <h3>Mission</h3>
+    <h3 class="page-section-title">Mission</h3>
     <p>
       The mission behind ContinuityM is simple:
     </p>
