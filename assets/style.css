@@ -36,6 +36,28 @@ header h1 {
   margin: 0;
 }
 
+/* 🔗 Navigation — always ice-blue, no visited purple */
+.nav a,
+.nav a:visited,
+.nav a:active {
+  color: #c9d4ff;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.nav {
+  margin-bottom: 28px;
+  display: flex;
+  gap: 18px;
+  opacity: 0.85;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
 /* Description */
 .description {
   max-width: 650px;
@@ -50,9 +72,9 @@ header h1 {
 .content-image {
   display: block;
   width: 100%;
-  max-width: 720px; /* matches main content column width */
+  max-width: 720px;
   height: auto;
-  margin: 24px auto; /* centers image & adds breathing room */
+  margin: 24px auto;
   border-radius: 12px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
 }
@@ -74,7 +96,7 @@ header h1 {
   border: 1px solid #ffffff22;
   border-radius: 12px;
   text-decoration: none;
-  color: #c7ddff !important; /* soft ice-blue, forced */
+  color: #c7ddff !important; /* soft ice-blue */
   font-size: 1.2rem;
   font-weight: 500;
   transition:
@@ -131,3 +153,55 @@ header h1 {
 /* Footer */
 footer {
   margin-top: 60px;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  body {
+    padding: 32px 16px 40px;
+  }
+
+  header {
+    gap: 12px;
+  }
+
+  .logo {
+    width: 52px;
+    border-radius: 10px;
+  }
+
+  header h1 {
+    font-size: 1.9rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+
+  .essay-list {
+    gap: 14px;
+  }
+
+  .essay {
+    padding: 16px 18px;
+    font-size: 1.05rem;
+  }
+
+  footer {
+    margin-top: 44px;
+    font-size: 0.85rem;
+  }
+}
