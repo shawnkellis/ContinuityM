@@ -27,13 +27,17 @@ header {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
 }
 
-h1 {
+/* 🔥 Brand Title — glowing lava orange */
+header h1 {
+  color: #ffb45c;
+  text-shadow: 0 0 12px rgba(255, 140, 60, 0.55),
+               0 0 24px rgba(255, 120, 20, 0.35);
   font-size: 2.4rem;
   font-weight: 600;
   margin: 0;
 }
 
-/* Description (index page subtitle) */
+/* Description */
 .description {
   max-width: 650px;
   text-align: center;
@@ -43,39 +47,18 @@ h1 {
   margin-bottom: 40px;
 }
 
-/* Navigation */
-.nav {
-  margin-bottom: 12px; /* reduced so About page spacing looks correct */
-  display: flex;
-  gap: 18px;
-  font-size: 0.95rem;
-  opacity: 0.85;
-}
-
-.nav a {
-  color: #c9d4ff;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-}
-
-.nav a:hover {
-  text-decoration: underline;
-}
-
 /* Content images */
 .content-image {
   display: block;
   width: 100%;
-  max-width: 720px;     /* matches main content column width */
+  max-width: 720px; /* matches main content column width */
   height: auto;
-  margin: 24px auto;    /* centers image & gives breathing room */
+  margin: 24px auto; /* centers image & adds breathing room */
   border-radius: 12px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
 }
 
-/* Essay List (index) */
+/* Essay List */
 .essay-list {
   width: 100%;
   max-width: 720px;
@@ -92,7 +75,7 @@ h1 {
   border: 1px solid #ffffff22;
   border-radius: 12px;
   text-decoration: none;
-  color: #c7ddff !important; /* soft ice-blue title color */
+  color: #c7ddff !important; /* soft ice-blue, forced */
   font-size: 1.2rem;
   font-weight: 500;
   transition:
@@ -132,13 +115,14 @@ h1 {
 /* Article titles on inner pages */
 .article-title {
   font-size: 1.7rem;
-  margin: 22px 0 0.4rem; /* extra breathing room above all article titles */
-  color: #c7ddff;
+  margin-top: 1.2rem; /* extra space after navigation */
+  margin-bottom: 0.5rem;
+  color: #c7ddff; /* soft ice-blue */
 }
 
-/* About page section titles */
+/* Section titles on About page */
 .page-section-title {
-  color: #c9d4ff; /* same icy blue as index titles */
+  color: #c9d4ff;
   text-shadow: 0 0 8px rgba(201, 212, 255, 0.25);
   margin-top: 1.6rem;
   margin-bottom: 0.6rem;
@@ -148,55 +132,3 @@ h1 {
 /* Footer */
 footer {
   margin-top: 60px;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-footer a {
-  color: inherit;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  body {
-    padding: 32px 16px 40px;
-  }
-
-  header {
-    gap: 12px;
-  }
-
-  .logo {
-    width: 52px;
-    border-radius: 10px;
-  }
-
-  h1 {
-    font-size: 1.9rem;
-  }
-
-  .description {
-    font-size: 1rem;
-    margin-bottom: 32px;
-  }
-
-  .essay-list {
-    gap: 14px;
-  }
-
-  .essay {
-    padding: 16px 18px;
-    font-size: 1.05rem;
-  }
-
-  footer {
-    margin-top: 44px;
-    font-size: 0.85rem;
-  }
-}
