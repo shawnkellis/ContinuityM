@@ -35,19 +35,6 @@
       by Shawn K. Ellis
     </div>
 
-    <!-- Inline audio player for this essay -->
-    <div class="audio-player">
-      <div class="audio-player-header">
-        <span class="audio-label">Listen to this essay</span>
-        <span class="audio-filename">THE COMPUTATIONAL EARTH</span>
-      </div>
-      <audio controls>
-        <!-- Update this path/filename to match your actual MP3 -->
-        <source src="../audio/computational-earth.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
     <section class="article-body">
 
       <p>
@@ -157,6 +144,20 @@
       </p>
 
     </section>
+
+    <!-- Centered audio player BELOW the article -->
+    <div class="audio-player" style="display:flex; justify-content:center; margin: 32px 0;">
+      <div style="width:100%; max-width:520px;">
+        <div class="audio-player-header">
+          <span class="audio-label">Listen to this essay</span>
+          <span class="audio-filename">THE COMPUTATIONAL EARTH</span>
+        </div>
+        <audio controls style="width:100%;">
+          <source src="../audio/computational-earth.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
 
   </main>
 
