@@ -1,4 +1,6 @@
+/* ---------------------------------------------------- */
 /* Base Layout */
+/* ---------------------------------------------------- */
 body {
   margin: 0;
   background: #050811;
@@ -11,7 +13,9 @@ body {
   padding: 48px 24px 64px;
 }
 
+/* ---------------------------------------------------- */
 /* Header */
+/* ---------------------------------------------------- */
 header {
   display: flex;
   flex-direction: row;
@@ -33,7 +37,9 @@ h1 {
   margin: 0;
 }
 
+/* ---------------------------------------------------- */
 /* Description */
+/* ---------------------------------------------------- */
 .description {
   max-width: 650px;
   text-align: center;
@@ -43,18 +49,22 @@ h1 {
   margin-bottom: 40px;
 }
 
-/* Content images */
+/* ---------------------------------------------------- */
+/* Content Images */
+/* ---------------------------------------------------- */
 .content-image {
   display: block;
   width: 100%;
-  max-width: 720px;        /* matches main content column width */
+  max-width: 720px;
   height: auto;
-  margin: 24px auto;       /* centers image & adds breathing room */
-  border-radius: 12px;     /* optional: matches card rounding */
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.45); /* subtle glow */
+  margin: 24px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
 }
 
-/* Essay List */
+/* ---------------------------------------------------- */
+/* Essay List (Homepage) */
+/* ---------------------------------------------------- */
 .essay-list {
   width: 100%;
   max-width: 720px;
@@ -71,7 +81,7 @@ h1 {
   border: 1px solid #ffffff22;
   border-radius: 12px;
   text-decoration: none;
-  color: #ffeaa0; /* yellow essay titles on homepage */
+  color: #ffeaa0; /* homepage essay link color */
   font-size: 1.2rem;
   font-weight: 500;
   transition:
@@ -82,7 +92,7 @@ h1 {
   overflow: hidden;
 }
 
-/* Animated underline + glow on hover */
+/* Hover underline */
 .essay::after {
   content: "";
   position: absolute;
@@ -108,71 +118,6 @@ h1 {
   transform: scaleX(1);
 }
 
+/* ---------------------------------------------------- */
 /* Footer */
-footer {
-  margin-top: 60px;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-footer a {
-  color: inherit;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* -------------------------------------------- */
-/* 🔥 Clean Yellow Title Styling for All Pages  */
-/* -------------------------------------------- */
-
-.article-title,
-.index-title,
-.essay-title {
-  color: #ffeaa0; /* lighter, cleaner yellow */
-  text-shadow: none; /* remove glow / strange effect */
-}
-
-/* -------------------------------------------- */
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  body {
-    padding: 32px 16px 40px;
-  }
-
-  header {
-    gap: 12px;
-  }
-
-  .logo {
-    width: 52px;
-    border-radius: 10px;
-  }
-
-  h1 {
-    font-size: 1.9rem;
-  }
-
-  .description {
-    font-size: 1rem;
-    margin-bottom: 32px;
-  }
-
-  .essay-list {
-    gap: 14px;
-  }
-
-  .essay {
-    padding: 16px 18px;
-    font-size: 1.05rem;
-  }
-
-  footer {
-    margin-top: 44px;
-    font-size: 0.85rem;
-  }
-}
+/* -------------------------------*
