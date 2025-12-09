@@ -171,6 +171,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* -------------------------------------------- */
+/* SPACE BELOW SOUNDCLOUD / AUDIO ELEMENTS      */
+/* -------------------------------------------- */
+.audio-embed {
+  margin-bottom: 32px;  /* adds breathing room before prev/next nav */
+}
+
 /* -------------------------------------------------- */
 /* ContinuityM Audio Player                           */
 /* -------------------------------------------------- */
