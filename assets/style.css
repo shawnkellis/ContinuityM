@@ -312,6 +312,29 @@ footer a:hover {
   display: none;
 }
 
+/* Audio navigation under players */
+.audio-nav {
+  margin: 8px auto 24px;
+  max-width: 720px;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.audio-nav a {
+  color: #c9d4ff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.audio-nav a:hover {
+  text-decoration: underline;
+}
+
+.audio-nav span {
+  opacity: 0.6;
+}
+
 /* Responsive tweaks */
 @media (max-width: 600px) {
   body {
