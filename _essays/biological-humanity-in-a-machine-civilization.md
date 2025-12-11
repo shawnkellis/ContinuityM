@@ -4,4 +4,4 @@ date: 2025-12-05
 description: "How human populations interact with, adapt to, and persist within machine-driven systems"
 ---
 
-*Written by S.K.E. — shawnkellis.com*
+*Written by ShawnK.Ellis — shawnkellis.github.io*
