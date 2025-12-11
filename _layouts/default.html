@@ -7,8 +7,85 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
 
-    <!-- Load your CSS (this path works for BOTH custom domains and GitHub Pages) -->
-    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+    <!-- Inline CSS so we don't depend on style.css path while we debug -->
+    <style>
+        /* Base styles */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0c0c0c;
+            color: #ddd;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #e3e3e3;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #aaa;
+            margin-top: 0.5rem;
+        }
+
+        /* Main */
+        main {
+            min-height: 60vh;
+        }
+
+        /* Section Titles */
+        section h2 {
+            font-size: 1.6rem;
+            color: #e3e3e3;
+            margin-bottom: 10px;
+        }
+
+        /* Essay List */
+        ul.essay-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul.essay-list li {
+            margin: 10px 0;
+        }
+
+        ul.essay-list li a {
+            color: #66aaff;
+            text-decoration: none;
+            font-size: 1.05rem;
+        }
+
+        ul.essay-list li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #777;
+            font-size: 0.85rem;
+            border-top: 1px solid #222;
+        }
+    </style>
 </head>
 
 <body>
