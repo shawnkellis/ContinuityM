@@ -1,5 +1,5 @@
 ---
-title: "THE COMPUTATIONALSOLAR SYSTEM"
+title: "THE COMPUTATIONAL SOLAR SYSTEM"
 date: 2025-12-05
 description: "How machine intelligence extends energy, infrastructure, and coordination beyond Earth"
 ---
