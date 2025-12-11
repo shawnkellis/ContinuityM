@@ -1,5 +1,5 @@
 ---
-title: "THE COMPUTATIONAL EARTH"
+title: "The Computational Earth"
 date: 2025-12-05
 description: "How planetary resources, systems, and structures align with large-scale computation"
 ---
