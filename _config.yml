@@ -2,24 +2,16 @@ title: "ContinuityM"
 description: "Technical essays by Shawn K. Ellis exploring digital migration, AI continuity, and the long-term evolution of intelligence and infrastructure."
 author: "Shawn K. Ellis"
 
-# If you're using a custom domain like shawnkellis.com, set `url` to that.
-# For a GitHub Pages subdomain, use your repo URL instead.
-url: "https://shawnkellis.com"
-baseurl: ""   # leave "" if you're serving from the root of the domain
+url: ""      # you can set this later (e.g. https://shawnkellis.com)
+baseurl: ""  # keep empty while you're using a root domain or testing
 
-# Where Jekyll looks for things
 markdown: kramdown
-theme: minima  # doesn't matter much since we'll use our own layout
-plugins:
-  - jekyll-feed
 
-# Custom collection for your essays
 collections:
   essays:
     output: true
     permalink: /essays/:name/
 
-# Defaults so you don't have to repeat layout everywhere
 defaults:
   - scope:
       path: ""
