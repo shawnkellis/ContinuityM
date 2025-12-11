@@ -1,5 +1,5 @@
 ---
-title: "CONTINUITY AND THE STRUCTURE OF REALITY"
+title: "Continuity and the Structure of Reality"
 date: 2025-12-05
 description: "How continuity emerges from the physical and informational patterns that form experience"
 ---
