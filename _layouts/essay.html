@@ -5,9 +5,11 @@ layout: default
 <article class="essay">
   <header>
     <h2>{{ page.title }}</h2>
+
     {% if page.date %}
       <p class="essay-date">{{ page.date | date: "%B %-d, %Y" }}</p>
     {% endif %}
+
     {% if page.description %}
       <p class="essay-description">{{ page.description }}</p>
     {% endif %}
@@ -16,4 +18,15 @@ layout: default
   <section class="essay-body">
     {{ content }}
   </section>
+
+  <!-- ARTICLE NAVIGATION -->
+  <nav class="essay-nav">
+    {% if page.previous %}
+      <a class="essay-prev" href="{{ page.previous.url | relative_url }}">← Previous</a>
+    {% endif %}
+
+    {% if page.next %}
+      <a class="essay-next" href="{{ page.next.url | relative_url }}">Next →</a>
+    {% endif %}
+  </nav>
 </article>
