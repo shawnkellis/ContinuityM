@@ -3,6 +3,7 @@ layout: default
 title: "About"
 permalink: /about/
 description: "About ContinuityM and its author, Shawn K. Ellis."
+class: about-page
 ---
 
 <section>
@@ -17,7 +18,7 @@ description: "About ContinuityM and its author, Shawn K. Ellis."
   <p>
     The project blends speculative machine philosophy, world-building, and pragmatic
     thinking about computational civilizations. The essays are intentionally written with
-    a clean, technical tone—grounded, forward-looking, and designed to give readers a
+    a clean, technical tone — grounded, forward-looking, and designed to give readers a
     sense that they are glimpsing part of a much larger system.
   </p>
 
