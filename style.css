@@ -71,10 +71,10 @@ main {
   min-height: 60vh;
 }
 
-/* Section Titles (e.g. "Essays" on the home page) */
+/* Section Titles (e.g. "Essays" and "About ContinuityM") */
 section h2 {
   font-size: 1.6rem;
-  color: #e3e3e3;
+  color: #66aaff; /* UPDATED: MATCH ARTICLE TITLE BLUE */
   margin-bottom: 10px;
 }
 
@@ -103,7 +103,7 @@ ul.essay-list li a:hover {
 article.essay h2 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
-  color: #66aaff; /* SAME BLUE AS LINKS ON HOME PAGE */
+  color: #66aaff; /* SAME BLUE AS LINKS AND ABOUT PAGE */
 }
 
 .essay-date {
