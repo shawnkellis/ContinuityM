@@ -141,7 +141,8 @@ footer {
 /* Previous | Next navigation under articles */
 .essay-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;   /* CENTERED HORIZONTALLY */
+  gap: 2rem;                 /* SPACE BETWEEN PREVIOUS AND NEXT */
   margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid #222;
@@ -157,3 +158,4 @@ footer {
   text-decoration: underline;
   color: #99c8ff;
 }
+
