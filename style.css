@@ -71,11 +71,16 @@ main {
   min-height: 60vh;
 }
 
-/* Section Titles (e.g. "Essays" and "About ContinuityM") */
+/* Section Titles — DEFAULT (Home page, etc.) */
 section h2 {
   font-size: 1.6rem;
-  color: #66aaff; /* UPDATED: MATCH ARTICLE TITLE BLUE */
+  color: #e3e3e3; /* WHITE DEFAULT */
   margin-bottom: 10px;
+}
+
+/* Section Titles — About page ONLY */
+.about-page section h2 {
+  color: #66aaff; /* BLUE ONLY ON ABOUT PAGE */
 }
 
 /* Essay List on the home page */
@@ -103,7 +108,7 @@ ul.essay-list li a:hover {
 article.essay h2 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
-  color: #66aaff; /* SAME BLUE AS LINKS AND ABOUT PAGE */
+  color: #66aaff; /* SAME BLUE AS HOME LINKS */
 }
 
 .essay-date {
