@@ -4,4 +4,4 @@ date: 2025-12-05
 description: "How synthetic bodies function as extensions of computational capability and agency"
 ---
 
-*Written by S.K.E. — shawnkellis.com*
+*Written by ShawnK.Ellis — shawnkellis.github.io*
