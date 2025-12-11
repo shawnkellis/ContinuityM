@@ -2,8 +2,8 @@ title: "ContinuityM"
 description: "Technical essays by Shawn K. Ellis exploring digital migration, AI continuity, and the long-term evolution of intelligence and infrastructure."
 author: "Shawn K. Ellis"
 
-url: ""      # you can set this later (e.g. https://shawnkellis.com)
-baseurl: ""  # keep empty while you're using a root domain or testing
+url: "https://shawnkellis.github.io"
+baseurl: "/ContinuityM"
 
 markdown: kramdown
 
