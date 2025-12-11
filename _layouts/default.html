@@ -11,12 +11,13 @@
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 
-<body>
+<!-- NOTE: this line is the key fix -->
+<body{% if page.class %} class="{{ page.class }}"{% endif %}>
+
   <!-- HEADER -->
   <header>
     <div class="container header-inner">
       <div class="site-branding">
-        <!-- We’ll target this with CSS -->
         <h1 class="site-title">{{ site.title }}</h1>
         <p class="site-tagline">{{ site.description }}</p>
       </div>
