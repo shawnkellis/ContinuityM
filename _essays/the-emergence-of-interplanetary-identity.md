@@ -1,5 +1,5 @@
 ---
-title: "THE EMERGENCE OF INTERPLANETARY IDENTITY"
+title: "The Emergence of Interplanetary Identity"
 date: 2025-12-05
 description: "How identity persists and adapts across planetary and orbital computational systems"
 ---
