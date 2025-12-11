@@ -137,3 +137,23 @@ footer {
   font-size: 0.85rem;
   border-top: 1px solid #222;
 }
+
+/* Previous | Next navigation under articles */
+.essay-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #222;
+}
+
+.essay-nav a {
+  color: #66aaff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.essay-nav a:hover {
+  text-decoration: underline;
+  color: #99c8ff;
+}
